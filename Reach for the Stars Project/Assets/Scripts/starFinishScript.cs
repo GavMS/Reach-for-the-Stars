@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class starFinishScript : MonoBehaviour
 {
@@ -14,5 +15,29 @@ public class starFinishScript : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.CompareTag("Player"))
+        {
+            StartCoroutine(WaitForNextLevel());
+        }
+    }
+
+    IEnumerator WaitForNextLevel()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void RestartGame()
+    {
+        StartCoroutine(WaitForRestart());
+    }
+    IEnumerator WaitForRestart()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
