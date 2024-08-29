@@ -11,6 +11,7 @@ public class playerSpaceshipScript : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 targetPosition;
     private bool isMoving = false;
+    public Transform fire;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +56,15 @@ public class playerSpaceshipScript : MonoBehaviour
                 rb.velocity = Vector2.zero;
                 isMoving = false;
             }
+        }
+
+        if (rb.velocity.magnitude > 1)
+        {
+            fire.gameObject.SetActive(true);
+        }
+        else
+        {
+            fire.gameObject.SetActive(false);
         }
     }
 

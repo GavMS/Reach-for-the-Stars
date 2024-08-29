@@ -27,7 +27,8 @@ public class starFinishScript : MonoBehaviour
 
     IEnumerator WaitForNextLevel()
     {
-        yield return new WaitForSeconds(1);
+        GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(0.3f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
