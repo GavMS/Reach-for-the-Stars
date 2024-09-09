@@ -1,0 +1,61 @@
+Musik berikut ga perlu license:
+===============================
+
+INTRO: Music_1_Small_Ambient-Loop-isaiah658
+   https://opengameart.org/content/ambient-relaxing-loop
+   Copyright/Attribution Notice: 
+   No attribution required. Credit isaiah658 if you want to.
+
+   Intro: Short loop music
+
+MENU: Music_2_Short_Loop_Slow Stride .mp3
+   https://opengameart.org/content/slow-stride
+   Copyright/Attribution Notice: 
+   Credit to isaiah658 is not needed but is appreciated.   
+
+   Menu: Short loop music
+
+GAME PLAY - Alternative 1:
+   - Music_6_perfect-beauty-191271
+
+   https://pixabay.com/music/search/mood/relaxing/
+
+   Subject to the Prohibited Uses (see below), the Content License allows users to:
+
+    - Use Content for free
+    - Use Content without having to attribute the author (although giving credit 
+      is always appreciated by our community!)
+    - Modify or adapt Content into new works   
+
+
+GAME PLAY - Alternative 2: 
+   - Music_3_Long_Namaste or 
+   - Music_4_Long_Transcend_small
+
+   https://audionautix.com/
+   Free Production Music. Absolutely Free!
+   All music is composed and produced by Jason Shaw. This music is      
+   royalty free - completely free - for you to download and use    
+   (even for commercial purposes) as long as you provide credit.
+
+   Game Play: Long loop music
+
+   Important Notes:
+   - ONLY LOAD ONCE at start and do not destroy the music game object so that
+     it continues to live accross several level. 
+
+   - If it is reloaded for each level it takes long time to load in browser. 
+     There will be silence for few seconds while game is loading music.
+
+   - Here is instruction on how to do it according to Chat GPT:
+       https://chatgpt.com/share/9f782935-7353-41ee-885f-d289e508e969
+
+
+
+
+
+
+
+
+
+
