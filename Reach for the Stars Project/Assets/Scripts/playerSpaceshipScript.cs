@@ -12,6 +12,7 @@ public class playerSpaceshipScript : MonoBehaviour
     private Vector2 targetPosition;
     private bool isMoving = false;
     public Transform fire;
+    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
